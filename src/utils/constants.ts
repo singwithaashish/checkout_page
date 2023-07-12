@@ -117,4 +117,42 @@ export const pageTexts = {
       },
     ],
   },
+  footerSection: {
+    title: "Tickete",
+    links: [
+      {
+        title: "© Tickete Inc.",
+        url: "/",
+      },
+      {
+        title: "Privacy",
+        url: "/privacy",
+      },
+      {
+        title: "Terms",
+        url: "/terms",
+      },
+      {
+        title: "Cancellation Policy",
+        url: "/cancellation",
+      }
+    ],
+    socialLinks: [
+      {
+        title: "Facebook",
+        url: "https://www.facebook.com/tickete",
+        svg: allSvgs.FacebookLogo
+      },
+      {
+        title: "Instagram",
+        url: "https://www.instagram.com/tickete",
+        svg: allSvgs.InstagramLogo
+      },
+      {
+        title: "Twitter",
+        url: "https://www.twitter.com/tickete",
+        svg: allSvgs.TwitterLogo
+      }
+    ]
+  },
 };
