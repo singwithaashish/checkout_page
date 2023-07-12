@@ -6,7 +6,7 @@ import { PiTicketFill } from "react-icons/pi";
 
 export default function TicketSection() {
   return (
-    <section className="flex flex-col border-b-2 px-5">
+    <>
       <div className="flex flex-col border-b-2">
         {/* ticket image */}
         <div className="flex flex-col items-center justify-center">
@@ -72,6 +72,6 @@ export default function TicketSection() {
           </p>
         </aside>
       </div>
-    </section>
+    </>
   );
 }
