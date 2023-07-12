@@ -13,8 +13,11 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        text_primary: 'var(--grayscale-g-2, #474747)',
-        text_green: 'var(--sacramento-state-green-9, #006642)'
+        text_primary: '#474747',
+        text_secondary: '#595959',
+        text_green: '#006642',
+        pumpkin_1: '#FFF7ED',
+        pumpkin_10: '#7F2D0F'
       },
     },
   },
