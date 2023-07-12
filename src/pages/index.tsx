@@ -23,7 +23,23 @@ export default function Home() {
       <section className="flex gap-x-10 justify-between items-start p-5 pt-8 md:flex-row-reverse flex-col">
         <FaqSection />
       </section>
-      
+      <section className="flex flex-col">
+        <h3 className="text-xl mt-5 font-medium">
+          {pageTexts.tiketePromiseSection.title}
+        </h3>
+        <div className="grid md:grid-cols-4 gap-6">
+          {pageTexts.tiketePromiseSection.promises.map((item, index) => (
+            <div
+              key={index}
+              className="flex flex-col justify-start gap-y-3 my-5 border rounded-lg p-5"
+            >
+              {item.svg}
+              <h4 className="text-lg font-medium mt-8">{item.title}</h4>
+              <p className="text-md text-text_secondary">{item.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
     </main>
   );
 }
