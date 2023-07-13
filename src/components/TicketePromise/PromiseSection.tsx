@@ -10,7 +10,7 @@ export default function PromiseSection() {
       </h3>
       <div className="grid md:grid-cols-4 gap-6">
         {pageTexts.tiketePromiseSection.promises.map((item, index) => (
-          <PromiseBox item={item} index={index}/>
+          <PromiseBox item={item} index={index} key={index}/>
         ))}
       </div>
     </>
