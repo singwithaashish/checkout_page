@@ -85,6 +85,9 @@ https://checkout-page-w58m.vercel.app/
 
 ![Screenshot 2023-07-13 at 13-59-57 https __checkout-page-w58m vercel app](https://github.com/singwithaashish/checkout_page/assets/52033403/faef94b4-c0e7-4cfa-b907-b6ef761bac2b)
 
+![Screenshot 2023-07-13 at 14-03-07 https __checkout-page-w58m vercel app](https://github.com/singwithaashish/checkout_page/assets/52033403/6c726575-d116-4e48-9925-a9c0eff1ae8c)
+
+
 
 
 
