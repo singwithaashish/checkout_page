@@ -1,4 +1,4 @@
-**Checkout Page** is a nextjs project that is based on the [figma design](https://www.figma.com/file/g2dLOCjx050dKXg6M4OmDr/Checkout-Page?node-id=0%3A1157&mode=dev) provided by Tickete for take home interview. The project is built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) and deployed on [Vercel](https://vercel.com/).
+**Checkout Page** is a Nextjs project that is based on the [figma design](https://www.figma.com/file/g2dLOCjx050dKXg6M4OmDr/Checkout-Page?node-id=0%3A1157&mode=dev) provided by Tickete for take home interview. The project is built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) and deployed on [Vercel](https://vercel.com/).
 
 
 ## Table of Contents
@@ -83,11 +83,9 @@ https://checkout-page-w58m.vercel.app/
 
 ## 📷 Screenshots
 
-![Screen Shot 2023-07-13 at 14 00 29](https://github.com/singwithaashish/checkout_page/assets/52033403/5c9f071a-5a61-40f5-ac24-3f13a4603220)
+![Screenshot 2023-07-14 at 00-26-43 https __checkout-page-w58m vercel app_m](https://github.com/singwithaashish/checkout_page/assets/52033403/ae8c4ced-a9a8-4873-a222-4a889900b763)
+![Screenshot 2023-07-14 at 00-26-25 https __checkout-page-w58m vercel app_m](https://github.com/singwithaashish/checkout_page/assets/52033403/f72fd58c-f407-42b7-bcc3-ff988d28978c)
 
-![Screenshot 2023-07-13 at 13-59-57 https __checkout-page-w58m vercel app](https://github.com/singwithaashish/checkout_page/assets/52033403/faef94b4-c0e7-4cfa-b907-b6ef761bac2b)
-
-![Screenshot 2023-07-13 at 14-03-07 https __checkout-page-w58m vercel app](https://github.com/singwithaashish/checkout_page/assets/52033403/6c726575-d116-4e48-9925-a9c0eff1ae8c)
 
 
 
