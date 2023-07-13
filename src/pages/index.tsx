@@ -38,7 +38,7 @@ export default function Home() {
           <DetailFormSection />
         </form>
       </section>
-      <section className="flex gap-x-10 border-b-2 md:mx-20 py-10 justify-between items-start m-5 md:px-0 md:pb-0 pt-8 md:flex-row-reverse flex-col">
+      <section className="flex gap-x-10 border-b-2 md:mx-20 py-10 justify-between items-start m-5 md:px-0 md:pb-0 pt-8 md:flex-row flex-col">
         <FaqSection />
       </section>
       <section className="flex flex-col mb-8 md:px-20 px-5 py-10">
