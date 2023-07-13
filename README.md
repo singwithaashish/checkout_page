@@ -10,12 +10,12 @@
 - [Screenshots](#-screenshots)
 
 ## 🎬 Demo
-[Live Demo](https://checkout-page-ten.vercel.app/)
+https://checkout-page-w58m.vercel.app/
 
 
 ## 🎨 Features
 - Responsive design
-- Mobile first design
+- Mobile-first design
 - Form validation
 - Input error handling
 - FAQ section with accordion
@@ -81,6 +81,9 @@
 
 ## 📷 Screenshots
 
+![Screen Shot 2023-07-13 at 14 00 29](https://github.com/singwithaashish/checkout_page/assets/52033403/5c9f071a-5a61-40f5-ac24-3f13a4603220)
+
+![Screenshot 2023-07-13 at 13-59-57 https __checkout-page-w58m vercel app](https://github.com/singwithaashish/checkout_page/assets/52033403/faef94b4-c0e7-4cfa-b907-b6ef761bac2b)
 
 
 
