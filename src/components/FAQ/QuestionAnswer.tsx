@@ -40,7 +40,7 @@ export default function QuestionAnswer({
     }
   }, [isClient]);
   return (
-    <div className={"flex flex-col  w-full md:pr-10" + (last ? "md:border-b-0 border-b-2 mb-8 md:mb-0": " border-b-2 mb-8")}>
+    <div className={"flex flex-col  w-full md:pr-10" + (last ? " border-b-2 md:border-b-0 mb-8 md:mb-0": " border-b-2 mb-8")}>
       <div className="flex items-center justify-between" onClick={() => setShowAnswer(!showAnswer)}>
         <h4 className="text-xl font-medium">{question}</h4>
         {showAnswer ? <AiOutlineMinus className="text-2xl" /> : <AiOutlinePlus className="text-2xl" />}
