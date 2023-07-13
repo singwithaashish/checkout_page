@@ -10,7 +10,7 @@ export default function FaqSection() {
           <h3 className="text-2xl font-medium mb-5 text-pumpkin_10">
             Need help?
           </h3>
-          <p className="text-pumpkin_10 mb-5">We're here to help, 24*7</p>
+          <p className="text-pumpkin_10 mb-5">We&apos;re here to help, 24*7</p>
           <button className=" p-3 text-pumpkin_10 border rounded-lg border-pumpkin_10">
             Chat with us
           </button>
