@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NeedHelpBox() {
   return (
-    <div className="flex-2 md:w-auto w-full bg-pumpkin_1 rounded-lg flex p-8 justify-evenly">
+    <div className="flex-2 md:col-span-1 col-span-3 md:w-auto w-full bg-pumpkin_1 rounded-lg flex p-8  justify-evenly">
       <div className="flex flex-col">
         <h3 className="text-2xl font-medium mb-5 text-pumpkin_10">
           Need help?
