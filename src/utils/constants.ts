@@ -4,10 +4,31 @@ export const pageTexts = {
   city: "Bangalore",
   paySection: {
     detailsFields: [
-      { id: "name", label: "Full Name", type: "text" },
-      { id: "phone", label: "Phone Number", type: "number" },
-      { id: "email", label: "Email", type: "email" },
-      { id: "confirmEmail", label: "Confirm Email", type: "email" },
+      { 
+        id: "name", 
+        label: "Full Name", 
+        type: "text", 
+        validation: (value : string) => /^[a-zA-Z\s]*$/.test(value) && value.trim() !== "" ? "" : "Name must be alphabets" 
+      },
+      { 
+        id: "phone", 
+        label: "Phone Number", 
+        type: "number", 
+        prefixIcon: allSvgs.MasterFlag, 
+        validation: (value: string) => /^\d+$/.test(value) && value.length <= 10 ? "" : "Invalid phone number" 
+      },
+      { 
+        id: "email", 
+        label: "Email", 
+        type: "email", 
+        validation: (value: string) => /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/.test(value) && value.trim() !== "" ? "" : "Invalid email format" 
+      },
+      { 
+        id: "confirmEmail", 
+        label: "Confirm Email", 
+        type: "email", 
+        validation: (value: string) => /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/.test(value) && value.trim() !== "" ? "" : "Confirm Email must match Email" 
+      },
     ],
     additionalInfo: {
       ageInput: { id: "age", label: "Your Age", type: "number" },
@@ -17,6 +38,27 @@ export const pageTexts = {
         type: "text",
         options: ["Male", "Female", "Other"],
       },
+    },
+    modeOfPayment: {
+      types: [
+        {
+          title: "Credit & debit card",
+          svg: allSvgs.CreditCard,
+          isSelected: true,
+        },
+        {
+          title: "Klarna",
+          svg: allSvgs.Klarna,
+          isSelected: false,
+        },
+      ],
+      selected: 0,
+      inputFields: [
+        { id: "cardHolderName", label: "Name on Card", type: "text" },
+        { id: "cardNumber", label: "Card Number", type: "number", suffixIcon: allSvgs.Visa },
+        { id: "expiryDate", label: "Expiry Date", type: "date" },
+        { id: "cvv", label: "CVV/CVC", type: "number" },
+      ],
     },
   },
   ticketSection: {
@@ -135,24 +177,24 @@ export const pageTexts = {
       {
         title: "Cancellation Policy",
         url: "/cancellation",
-      }
+      },
     ],
     socialLinks: [
       {
         title: "Facebook",
         url: "https://www.facebook.com/tickete",
-        svg: allSvgs.FacebookLogo
+        svg: allSvgs.FacebookLogo,
       },
       {
         title: "Instagram",
         url: "https://www.instagram.com/tickete",
-        svg: allSvgs.InstagramLogo
+        svg: allSvgs.InstagramLogo,
       },
       {
         title: "Twitter",
         url: "https://www.twitter.com/tickete",
-        svg: allSvgs.TwitterLogo
-      }
-    ]
+        svg: allSvgs.TwitterLogo,
+      },
+    ],
   },
 };

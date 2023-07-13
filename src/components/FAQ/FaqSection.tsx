@@ -28,13 +28,14 @@ export default function FaqSection() {
           />
         </svg>
       </div>
-      <div className="flex flex-1 flex-col items-start border-b-2 py-5 pb-0">
+      <div className="flex flex-1 flex-col items-start  py-5 pb-0">
         <h3 className="text-2xl font-medium mb-8">Frequently asked question</h3>
         {pageTexts.faqSection.questions.map((item, index) => (
           <QuestionAnswer
             key={index}
             question={item.question}
             answer={item.answer}
+            last={index === pageTexts.faqSection.questions.length - 1}
           />
         ))}
       </div>
